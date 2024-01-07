@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    .a1 {
+        background: #D9EEE1;
+    }
+
+    blockquote {
+        margin-left: 20px;
+        line-height: 2;
+    }
+
+    .a1 button {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 20px;
+        background: #04AA6D;
+        border: 0;
+        outline: 0;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="main-nav">
+            <ul>
+                <img src="../assts/download (1).png" class="nav-logo">
+                <li>Tutorials <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <li>Exercises <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <li>Certificates <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <li>Services <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="search_input">
+                    <img src="../assts/download.png" />
+                </div>
+                <li><img src="../assts/day.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="actions">
+
+            <a> <span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Jobs</a>
+            <a>
+                <span><i class="fa fa-code" aria-hidden="true"></i></span>Spaces
+                <a>
+                    <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>get Certified
+                </a>
+                <span>My W3Schools</span>
+                <a><img src="../assts/Screenshot 2024-01-03 015212.png" alt=""></a>
+
+        </div>
+    </header>
+    <div class="nav">
+        <a href="../index.html">HTML</a>
+        <a href="1_home.html" class="active">CSS</a>
+        <a href="">JAVASCRIPT</a>
+        <a href="">SQL</a>
+        <a href="">PYTHON</a>
+        <a href="">JAVA</a>
+        <a href="">PHP</a>
+        <a href="">HOW TO</a>
+        <a href="">W3CSS</a>
+        <a href="">C</a>
+        <a href="">C++</a>
+        <a href="">C#</a>
+        <a href="">BOOTSTRAP</a>
+        <a href="">REACT</a>
+        <a href="">MYSQL</a>
+        <a href="">EXCEL</a>
+        <a href="">XML</a>
+    </div>
+
+    <!-- side bar -->
+    <div class="section-splitter">
+        <aside class="side-bar">
+            <h2>CSS Tutorial</h2>
+            <a href="1_home.html">CSS HOME</a>
+            <a href="2_p.html">CSS pduction</a>
+            <a href="3_syntax.html">CSS Syntax</a>
+            <a href="4_selectors.html">CSS Selectors</a>
+            <a href="5_how to.html">CSS How to</a>
+            <a href="6_comments.html">CSS Comments</a>
+            <a href="7_colors.html">CSS Colors</a>
+            <a href="8_background.html">CSS Backgrounds</a>
+            <a href="9_borders.html">CSS Borders</a>
+            <a href="10_margings.html">CSS Margins</a>
+            <a href="11_padding.html">CSS Padding</a>
+            <a href="12_hight.html">CSS Height/Width</a>
+            <a href="13_box.html">CSS Box Model</a>
+            <a href="14_outline.html">CSS Outline</a>
+            <a href="15_text.html">CSS Text</a>
+            <a href="16_fonts.html">CSS Fonts</a>
+            <a href="17_icons.html">CSS Icons</a>
+            <a href="18_links.html">CSS Links</a>
+            <a href="19_lists.html">CSS Lists</a>
+            <a href="20_tables.html">CSS Tables</a>
+            <a href="21_display.html">CSS Display</a>
+            <a href="22_max_width.html">CSS Max-width</a>
+            <a href="23_position.html">CSS Position</a>
+            <a href="24_zindex.html">CSS Z-index</a>
+            <a href="25_overflow.html">CSS Overflow</a>
+            <a href="26_float.html">CSS Float</a>
+            <a href="27_inline-block.html">CSS Inline-block</a>
+            <a href="28_align.html">CSS Align</a>
+            <a href="29_cominators.html">CSS Combinators</a>
+            <a href="30_pseudo_class.html">CSS Class-elements</a>
+            <a href="31_pseudo_element.html">CSS Pseudo-elements</a>
+            <a href="32_opacity.html">CSS Opacity</a>
+            <a href="33_navigator.html">CSS Navigation Bar</a>
+            <a href="34_dropdown.html">CSS Dropdowns</a>
+            <a href="35_image_gallery.html">CSS Image Gallery</a>
+            <a href="36_image_sprites.html">CSS Image Sprites</a>
+            <a href="37_attr_selectors.html">CSS Attr Selectors</a>
+            <a href="38_forms.html">CSS Forms</a>
+            <a href="39_counters.html">CSS Counters</a>
+            <a href="40_website_layout.html" >CSS Website Layout</a>
+            <a href="41_units.html" >CSS Units</a>
+            <a href="42_specifty.html" class="active">CSS Specificity</a>
+            <a href="43_important.html">CSS !important</a>
+            <a href="44_math_function.html">CSS Math Functions</a>
+        </aside>
+        <div class="main-container">
+            <main class="content-container">
+                <section class="content">
+                    <img src="../assts/topad.png" class="topimg">
+                    <h1 class="f_head">CSS Specificity</h1>
+                    <div class="btn_top">
+                      <button><a href="41_units.html">❮ Previous</a></button>
+                      <button><a href="43_important.html">Next ❯</a></i></button>
+                  </div>
+
+                    <h2 class="h2">What is Specificity?</h2>
+                    <p class="p">If there are two or more CSS rules that point to the same 
+                    element, the selector with the highest specificity value will &quot;win&quot;, and its 
+                    style declaration will be applied to that HTML element.</p>
+                    <p class="p">Think of specificity as a score/rank that determines which style declaration 
+                    is ultimately applied to an element.</p>
+                    
+                    <p class="p">Look at the following examples:</p>
+                    <div class="w3-example">
+                    <h3 class="h2">Example 1</h3>
+                    <p class="p">In this example, we have used the &quot;p&quot; element as selector, and specified a red color 
+                    for this element. The text will be red:</p>
+                    <div class="w3-code notranslate htmlHigh p">
+                      &lt;html&gt;<br>&lt;head&gt;<br>&nbsp; &lt;style&gt;<br>&nbsp;&nbsp;&nbsp; p {color: red;} <br>&nbsp; 
+                      &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;p&gt;Hello World!&lt;/p&gt;<br>
+                      <br>&lt;/body&gt;<br>
+                      &lt;/html&gt;</div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity_el">Try it Yourself &raquo;</a></p>
+                    </div>
+                    
+                    <p class="p">Now, look at example 2:</p>
+                    <div class="w3-example">
+                    <h3 class="h2">Example 2</h3>
+                    <p class="p">In this example, we have added a class selector (named &quot;test&quot;), and 
+                    specified a green 
+                    color for this class. The text will now be green (even though we have specified 
+                    a red 
+                    color for the element selector &quot;p&quot;). This is because the class selector is given 
+                    higher priority:</p>
+                    <div class="w3-code notranslate htmlHigh p">
+                      &lt;html&gt;<br>&lt;head&gt;<br>&nbsp; &lt;style&gt;<br>&nbsp;&nbsp;&nbsp; .test {color: green;}
+                      <br>&nbsp;&nbsp;&nbsp; p {color: red;} <br>&nbsp; &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>
+                      <br>&lt;p class=&quot;test&quot;&gt;Hello World!&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity_class">Try it Yourself &raquo;</a></p>
+                    </div>
+                    
+                    <p class="p">Now, look at example 3:</p>
+                    <div class="w3-example">
+                    <h3 class="h2">Example 3</h3>
+                    <p class="p">In this example, we have added the id selector (named &quot;demo&quot;). The text will now be 
+                    blue, because the id selector is given higher priority:</p>
+                    <div class="w3-code notranslate htmlHigh p">
+                      &lt;html&gt;<br>&lt;head&gt;<br>&nbsp; &lt;style&gt;<br>&nbsp;&nbsp;&nbsp; #demo {color: blue;}<br>&nbsp;&nbsp;&nbsp; 
+                      .test {color: green;} <br>&nbsp;&nbsp;&nbsp; p {color: red;} <br>&nbsp; 
+                      &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;p id=&quot;demo&quot; class=&quot;test&quot;&gt;Hello 
+                      World!&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity_id">Try it Yourself &raquo;</a></p>
+                    </div>
+                    
+                    <p class="p">Now, look at example 4:</p>
+                    <div class="w3-example">
+                    <h3 class="h2">Example 4</h3>
+                    <p class="p">In this example, we have added an inline style for the &quot;p&quot; element. The 
+                    text will now be pink, because the inline style is given the highest priority:</p>
+                    <div class="w3-code notranslate htmlHigh p">
+                      &lt;html&gt;<br>&lt;head&gt;<br>&nbsp; &lt;style&gt;<br>&nbsp;&nbsp;&nbsp; #demo {color: blue;}<br>&nbsp;&nbsp;&nbsp; 
+                      .test {color: green;} <br>&nbsp;&nbsp;&nbsp; p {color: red;} <br>&nbsp; 
+                      &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;p id=&quot;demo&quot; class=&quot;test&quot; 
+                      style=&quot;color: pink;&quot;&gt;Hello World!&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity_inline">Try it Yourself &raquo;</a></p>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Specificity Hierarchy </h2>
+                    <p class="p">Every CSS selector has its place in the specificity hierarchy.</p>
+                    <p class="p">There are four categories which define the specificity level of a selector:</p>
+                    <ol class="p">
+                      <li><strong>Inline styles</strong> - Example: 
+                    &lt;h1 style=&quot;color: pink;&quot;&gt;</li>
+                      <li><strong>IDs</strong> - Example: 
+                    #navbar</li>
+                      <li><strong>Classes, pseudo-classes, attribute selectors</strong> - Example: .test, 
+                      :hover, [href]</li>
+                      <li><strong>Elements and pseudo-elements</strong> - Example: h1, ::before</li>
+                    </ol>
+                    <hr>
+                    <h2 class="h2">How to Calculate Specificity?</h2>
+                    <p class="p">Memorize how to calculate specificity!</p>
+                    <p class="p">Start at 0, add 100 for each ID value, add 10 for each 
+                    class value (or 
+                    pseudo-class or attribute selector), add 1 for each element selector or pseudo-element.</p>
+                    
+                    <div class="w3-panel w3-note">
+                    <p class="p"><strong>Note:</strong> Inline style gets a specificity value of 1000, and is 
+                    always given the highest priority!</p>
+                      <p class="p"><strong>Note 2:</strong> There is one 
+                    exception to this rule: if you use the <a href="css_important.asp"><code class="w3-codespan">!important</code></a> 
+                    rule, it will even override inline styles!</p>
+                    </div>
+                    
+                    <p class="p">The table below shows some examples on how to calculate specificity values:</p>
+                    <table class="ws-table-all notranslate">
+                      <tr>
+                        <th>Selector</th>
+                        <th>Specificity Value</th>
+                        <th>Calculation</th>
+                      </tr>
+                      <tr>
+                        <td>p</td>
+                        <td>1</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <td>p.test</td>
+                        <td>11</td>
+                        <td>1 + 10</td>
+                      </tr>
+                      <tr>
+                        <td>p#demo</td>
+                        <td>101</td>
+                        <td>1 + 100</td>
+                      </tr>
+                      <tr>
+                        <td>&lt;p style=&quot;color: pink;&quot;&gt;</td>
+                        <td>1000</td>
+                        <td>1000</td>
+                      </tr>
+                      <tr>
+                        <td>#demo</td>
+                        <td>100</td>
+                        <td>100</td>
+                      </tr>
+                      <tr>
+                        <td>.test</td>
+                        <td>10</td>
+                        <td>10</td>
+                      </tr>
+                      <tr>
+                        <td>p.test1.test2</td>
+                        <td>21</td>
+                        <td>1 + 10 + 10</td>
+                      </tr>
+                      <tr>
+                        <td>#navbar p#demo</td>
+                        <td>201</td>
+                        <td>100 + 1 + 100</td>
+                      </tr>
+                      <tr>
+                        <td>*</td>
+                        <td>0</td>
+                        <td>0 (the universal selector is ignored)</td>
+                      </tr>
+                      </table>
+                    
+                    
+                    <p class="p"><strong>The selector with the highest specificity value will win and take effect!</strong></p>
+                    <p class="p">Consider these three code fragments:</p>
+                    
+                    <div class="w3-example">
+                    <h3 class="h2">Example</h3>
+                    <div class="w3-code notranslate htmlHigh p">
+                    A: h1<br>B: h1#content<br>C: &lt;h1 id=&quot;content&quot; style=&quot;color: 
+                      pink;&quot;&gt;Heading&lt;/h1&gt;</div>
+                    </div>
+                    
+                    <p class="p">The specificity of A is 1 (one element selector)<br>The specificity of B is 
+                    101 (one ID reference + one element selector)<br>The specificity of C is 1000 (inline styling)</p>
+                    <p class="p">Since the third rule (C) has the highest specificity value (1000), this style 
+                    declaration will be applied.</p>
+                    <hr>
+                    <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+                    <!-- MidContent -->
+                    <!-- <p class="adtext">Advertisement</p> -->
+                    
+                      <div id="adngin-mid_content-0"></div>
+                      
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">More Specificity Rules Examples</h2>
+                    <p class="p"><strong>Equal specificity: the latest rule wins </strong>- 
+                    If the same rule is written twice into the external style sheet, then 
+                    the latest rule wins:</p>
+                    
+                    <div class="w3-example">
+                    <h3 class="h2">Example</h3>
+                    <div class="w3-code notranslate cssHigh p">
+                    h1 {background-color: yellow;}<br>
+                    h1 {background-color: red;}
+                    </div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity1">Try it Yourself &raquo;</a></p>
+                    </div>
+                    <hr>
+                    
+                    <p class="p"><strong>ID selectors have a higher specificity than attribute selectors</strong> 
+                    - Look at the following three code lines:</p>
+                    <div class="w3-example">
+                    <h3 class="h2">Example</h3>
+                    <div class="w3-code notranslate cssHigh p">
+                    div#a {background-color: green;}<br>#a {background-color: yellow;}<br>div[id=a] {background-color: blue;}
+                    </div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity2">Try it Yourself &raquo;</a></p>
+                    </div>
+                    <p class="p">the first rule is more specific than the other two, and will therefore be applied.</p>
+                    <hr>
+                    
+                    <p class="p"><strong>Contextual selectors are more specific than a single element 
+                    selector - </strong>The embedded style sheet is closer to the element to be styled. So in the 
+                    following situation</p>
+                    
+                    <div class="w3-example">
+                    <h3 class="h2">Example</h3>
+                    <div class="w3-code notranslate cssHigh p">
+                    /*From external CSS file:*/<br>#content h1 {background-color: red;}<br><br>
+                    /*In HTML file:*/<br>&lt;style&gt;<br>#content h1 {background-color: 
+                    yellow;}<br>&lt;/style&gt;
+                    </div>
+                    </div>
+                    <p class="p">the latter rule will be applied.</p>
+                    <hr>
+                    
+                    <p class="p"><strong>A class selector beats any number of element selectors </strong>- a class selector such as .intro beats h1, p, div, etc:</p>
+                    
+                    <div class="w3-example">
+                    <h3 class="h2">Example</h3>
+                    <div class="w3-code notranslate cssHigh p">
+                      .intro {background-color: yellow;}<br>h1 {background-color: 
+                      red;}
+                    </div>
+                    <p class="p"><a class="w3-btn" target="_blank" href="tryit.asp?filename=trycss_specificity3">Try it Yourself &raquo;</a></p>
+                    </div>
+                    <hr>
+                    
+                    <p class="p"><strong>The universal selector (*) and inherited values have a specificity of 0</strong> - 
+                    The universal selector (*) and inherited values are ignored!</p>
+
+                    <img src="../assts/ad5.png" class="topimg" style="width: 700px;">
+                    <div class="c">
+                        <img src="../assts/Screenshot 2024-01-03 015212.png" alt="">
+                    </div>
+                    <div class="btn_top">
+                      <button><a href="41_units.html">❮ Previous</a></button>
+                      <button><a href="43_important.html">Next ❯</a></i></button>
+                  </div>
+
+                </section>
+                <aside class="advertise">
+                    <h3 class="h2">ADVERTISEMENT</h3>
+                    <img src="../assts/ad4.png" alt="">
+                    <img src="../assts/ad2.png" alt="">
+                    <img src="../assts/adc.png" alt="">
+                    <img src="../assts/ad1.png" alt="">
+                    <img src="../assts/ad4.png" alt="">
+
+
+
+                </aside>
+            </main>
+            <footer>
+                <div class="footer_content">
+                    <img src="../assts/footer logo.png" alt="" class="logos">
+                    <div class="links">
+                        <a href="">SPACES</a>
+                        <a href="">UPGRADE</a>
+                        <a href="">AD-FREE</a>
+                        <a href="">NEWSLETTER</a>
+                        <a href="">GET CERTIFIED</a>
+                        <a href="">REPORT ERROR</a>
+                    </div>
+                    <div class="heading_links">
+                        <div class="Tutorials">
+                            <h5>Top Tutorials</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                        <div class="Tutorials">
+                            <h5>Top Referances</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                        <div class="Tutorials">
+                            <h5>Top Examples</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                        <div class="Tutorials">
+                            <h5>Top Examples</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="">FORUM</a>
+                        <a href="">ABOUT</a>
+                    </div>
+                    <div class="last">
+                        <p>W3Schools is optimized for learning and training. Examples might be simplified to
+                            improve
+                            reading and learning. Tutorials, references, and examples are constantly reviewed to avoid
+                            errors, but we cannot warrant full correctness of all content. While using W3Schools, you
+                            agree to have read and accepted our <a href="">terms of use</a>, <a href="">cookie and
+                                privacy policy.</a></p>
+                        <p><a href="">Copyright 1999-2024</a> by Refsnes Data. All Rights Reserved.a <a
+                                href="">W3Schools
+                                is Powered by W3.CSS.</a></p>
+                    </div>
+                    <div class="imgend">
+                        <img src="../assts/footer men.png" alt="">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
