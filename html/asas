@@ -1,0 +1,42 @@
+ <aside class="side-bar">
+            <h2>HTML Tutorial</h2>
+            <a href="index.html" >HTML HOME</a>
+            <a href="2_intro.html" class="active">HTML Introduction</a>
+            <a href="3_editors.html">HTML Editors</a>
+            <a href="4_basics.html">HTML Basic</a>
+            <a href="5_element.html">HTML Elements</a>
+            <a href="6_attibutes.html">HTML Attributes</a>
+            <a href="7_heading.html">HTML Headings</a>
+            <a href="8_Paragraphs.html">HTML Paragraphs</a>
+            <a href="9_Styles.html">HTML Styles</a>
+            <a href="10_Formatting.html">HTML Formatting</a>
+            <a href="11_Quotations.html">HTML Quotations</a>
+            <a href="12_Comments.html">HTML Comments</a>
+            <a href="13_Colors.html">HTML Colors</a>
+            <a href="14_CSS.html">HTML CSS</a>
+            <a href="15_Links.html">HTML Links</a>
+            <a href="16_Images.html">HTML Images</a>
+            <a href="17_Favicon.html">HTML Favicon</a>
+            <a href="18_PageTitle.html">HTML Page Title</a>
+            <a href="19_Tables.html">HTML Tables</a>
+            <a href="20_Lists.html">HTML Lists</a>
+            <a href="21_Block&Inline.html">HTML Block & Inline</a>
+            <a href="22_Div.html">HTML Div</a>
+            <a href="23_Classes.html">HTML Classes</a>
+            <a href="24_ID.html">HTML Id</a>
+            <a href="25_Iframes.html">HTML Iframes</a>
+            <a href="26_Javascript.html">HTML JavaScript</a>
+            <a href="27_FilePath.html">HTML File Paths</a>
+            <a href="28_Head.html">HTML Head</a>
+            <a href="29_Layout.html">HTML Layout</a>
+            <a href="30_Responsive.html">HTML Responsive</a>
+            <a href="31_Computercode.html">HTML Computercode</a>
+            <a href="32_Semantics.html">HTML Semantics</a>
+            <a href="33_StyleGuide.html">HTML Style Guide</a>
+            <a href="34_Entities.html">HTML Entities</a>
+            <a href="35_Symbols.html">HTML Symbols</a>
+            <a href="36_Emojis.html">HTML Emojis</a>
+            <a href="37_Charsets.html">HTML Charsets</a>
+            <a href="38_URL Encode.html">HTML URL Encode</a>
+            <a href="39">HTML vs. XHTML</a>
+        </aside>

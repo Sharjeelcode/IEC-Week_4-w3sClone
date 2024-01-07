@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;1,200;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    .a1 {
+        background: #D9EEE1;
+    }
+
+    blockquote {
+        margin-left: 20px;
+        line-height: 2;
+    }
+
+    .a1 button {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 20px;
+        background: #04AA6D;
+        border: 0;
+        outline: 0;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="main-nav">
+            <ul>
+                <img src="../assts/download (1).png" class="nav-logo">
+                <li>Tutorials <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <li>Exercises <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <li>Certificates <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <li>Services <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="search_input">
+                    <img src="../assts/download.png" />
+                </div>
+                <li><img src="../assts/day.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="actions">
+
+            <a> <span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Jobs</a>
+            <a>
+                <span><i class="fa fa-code" aria-hidden="true"></i></span>Spaces
+                <a>
+                    <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>get Certified
+                </a>
+                <span>My W3Schools</span>
+                <a><img src="../assts/Screenshot 2024-01-03 015212.png" alt=""></a>
+
+        </div>
+    </header>
+    <div class="nav">
+        <a href="../index.html">HTML</a>
+        <a href="1_home.html" class="active">CSS</a>
+        <a href="">JAVASCRIPT</a>
+        <a href="">SQL</a>
+        <a href="">PYTHON</a>
+        <a href="">JAVA</a>
+        <a href="">PHP</a>
+        <a href="">HOW TO</a>
+        <a href="">W3CSS</a>
+        <a href="">C</a>
+        <a href="">C++</a>
+        <a href="">C#</a>
+        <a href="">BOOTSTRAP</a>
+        <a href="">REACT</a>
+        <a href="">MYSQL</a>
+        <a href="">EXCEL</a>
+        <a href="">XML</a>
+    </div>
+
+    <!-- side bar -->
+    <div class="section-splitter">
+        <aside class="side-bar">
+            <h2>CSS Tutorial</h2>
+            <a href="1_home.html">CSS HOME</a>
+            <a href="2_p.html">CSS pduction</a>
+            <a href="3_syntax.html">CSS Syntax</a>
+            <a href="4_selectors.html">CSS Selectors</a>
+            <a href="5_how to.html">CSS How to</a>
+            <a href="6_comments.html">CSS Comments</a>
+            <a href="7_colors.html">CSS Colors</a>
+            <a href="8_background.html">CSS Backgrounds</a>
+            <a href="9_borders.html">CSS Borders</a>
+            <a href="10_margings.html">CSS Margins</a>
+            <a href="11_padding.html">CSS Padding</a>
+            <a href="12_hight.html">CSS Height/Width</a>
+            <a href="13_box.html">CSS Box Model</a>
+            <a href="14_outline.html">CSS Outline</a>
+            <a href="15_text.html">CSS Text</a>
+            <a href="16_fonts.html">CSS Fonts</a>
+            <a href="17_icons.html">CSS Icons</a>
+            <a href="18_links.html">CSS Links</a>
+            <a href="19_lists.html">CSS Lists</a>
+            <a href="20_tables.html">CSS Tables</a>
+            <a href="21_display.html">CSS Display</a>
+            <a href="22_max_width.html">CSS Max-width</a>
+            <a href="23_position.html">CSS Position</a>
+            <a href="24_zindex.html">CSS Z-index</a>
+            <a href="25_overflow.html">CSS Overflow</a>
+            <a href="26_float.html">CSS Float</a>
+            <a href="27_inline-block.html">CSS Inline-block</a>
+            <a href="28_align.html">CSS Align</a>
+            <a href="29_cominators.html">CSS Combinators</a>
+            <a href="30_pseudo_class.html" class="active">CSS Class-elements</a>
+            <a href="31_pseudo_element.html">CSS Pseudo-elements</a>
+            <a href="32_opacity.html">CSS Opacity</a>
+            <a href="33_navigator.html">CSS Navigation Bar</a>
+            <a href="34_dropdown.html">CSS Dropdowns</a>
+            <a href="35_image_gallery.html">CSS Image Gallery</a>
+            <a href="36_image_sprites.html">CSS Image Sprites</a>
+            <a href="37_attr_selectors.html">CSS Attr Selectors</a>
+            <a href="38_forms.html">CSS Forms</a>
+            <a href="39_counters.html">CSS Counters</a>
+            <a href="40_website_layout.html">CSS Website Layout</a>
+            <a href="41_units.html">CSS Units</a>
+            <a href="42_specifty.html">CSS Specificity</a>
+            <a href="43_important.html">CSS !important</a>
+            <a href="44_math_function.html">CSS Math Functions</a>
+        </aside>
+        <div class="main-container">
+            <main class="content-container">
+                <section class="content">
+                    <img src="../assts/topad.png" class="topimg">
+                    <h1 class="f_head">CSS Pseudo-classes</h1>
+                    <div class="btn_top">
+                      <button><a href="29_cominators.html">❮ Previous</a></button>
+                      <button><a href="31_pseudo_element.html">Next ❯</a></i></button>
+                  </div>
+                    <h2 class="h2">What are Pseudo-classes?</h2>
+                    <p class="p">A pseudo-class is used to define a special state 
+                    of an element.</p>
+                    <p class="p">For example, it can be used to:</p>
+                    <ul class="p">
+                    <li>Style an element when a user mouses over it</li>
+                    <li>Style visited and unvisited links differently</li>
+                    <li>Style an element when it gets focus</li>
+                    </ul>
+                    
+                    <div class="w3-row">
+                    <div class="w3-half">
+                    <div class="mouseover">
+                    <p class="p">Mouse Over Me</p>
+                    </div>
+                    </div>
+                    
+                    <div class="w3-half">
+                    <input class="focus" type="text" name="fname" autocomplete="off" placeholder="Click Me To Get Focus">
+                    </div>
+                    </div>
+                    <p style="clear:both;"></p>
+                    <hr>
+                    
+                    <h2 class="h2">Syntax</h2>
+                    <p class="p">The syntax of pseudo-classes:</p>
+                    <div class="w3-example">
+                    <div class="w3-code notranslate cssHigh h2">
+                    selector:pseudo-class {<br>&nbsp;&nbsp;property: value;<br>}</div>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Anchor Pseudo-classes</h2>
+                    <p class="p">Links can be displayed in different ways:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                       /* unvisited link */<br>a:link {<br>&nbsp; color: #FF0000;<br>}<br><br>/* visited 
+                    link */<br>a:visited {<br>&nbsp; color: #00FF00;<br>}<br><br>/* mouse over link */<br>
+                    a:hover {<br>&nbsp;&nbsp;color: #FF00FF;<br>}<br><br>/* selected link */<br>a:active {<br>
+                    &nbsp;&nbsp;color: #0000FF;<br>}
+                    </div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_pseudo-class_links" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    <br>
+                    </div>
+                    <div class="w3-panel w3-note">
+                    <p class="p"><b>Note:</b> <code class="w3-codespan">a:hover</code> MUST come after <code class="w3-codespan">a:link</code> and 
+                    <code class="w3-codespan">a:visited</code> in the CSS definition in order to be effective! <code class="w3-codespan">a:active</code> MUST come after 
+                    <code class="w3-codespan">a:hover</code> in the CSS definition in order to be effective!
+                    Pseudo-class names are not case-sensitive.</p>
+                    </div>
+                    
+                    <hr>
+                    <div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+                    <!-- MidContent -->
+                    <!-- <p class="adtext">Advertisement</p> -->
+                    
+                      <div id="adngin-mid_content-0"></div>
+                      
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Pseudo-classes and HTML Classes</h2>
+                    <p class="p">Pseudo-classes can be combined with HTML classes:</p>
+                    <p class="p">When you hover over the link in the example, it will change color:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                    a.highlight:hover {<br>&nbsp;&nbsp;color: #ff0000;<br>} </div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_pseudo-class" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Hover on &lt;div&gt;</h2>
+                    <p class="p">An example of using the <code class="w3-codespan">:hover</code> pseudo-class on a &lt;div&gt; element:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                    div:hover {<br>&nbsp; background-color: blue;<br>}</div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_pseudo-class_hover_div" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    <br>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Simple Tooltip Hover</h2>
+                    <p class="p">Hover over a &lt;div&gt; element to show a &lt;p&gt; element (like a tooltip):</p>
+                    <div class="tooltip-container w3-text-red p"><b>Hover over me to show the &lt;p&gt; element.</b>
+                      <p class="tooltiptext w3-text-black p">Tada! Here I am!</p>
+                    </div>
+                    
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                    p {<br>&nbsp; display: none;<br>&nbsp; 
+                    background-color: yellow;<br>&nbsp; padding: 20px;<br>}<br><br>
+                    div:hover p {<br>&nbsp; display: block;<br>}</div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_pseudo-class_hover_tooltip" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    <br>
+                    </div>
+                    
+                    <hr>
+                    
+                    <h2 class="h2">CSS - The :first-child Pseudo-class</h2>
+                    <p class="p">The <code class="w3-codespan">:first-child</code> pseudo-class matches a specified element that is the first child of another element.</p>
+                    
+                    <h2 class="h2">Match the first &lt;p&gt; element</h2>
+                    <p class="p">In the following example, the selector matches any &lt;p&gt; element that is the first child of any element:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                    p:first-child
+                    {<br>
+                      &nbsp;
+                    color: blue;<br>
+                    }</div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_first-child1" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Match the first &lt;i&gt; element in all &lt;p&gt; elements</h2>
+                    <p class="p">In the following example, the selector matches the first &lt;i&gt; element in all &lt;p&gt; elements:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                    p i:first-child
+                    {<br>
+                      &nbsp;
+                    color: blue;<br>
+                    }</div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_first-child2" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">Match all &lt;i&gt; elements in all first child &lt;p&gt; elements</h2>
+                    <p class="p">In the following example, the selector matches all &lt;i&gt; elements in &lt;p&gt; elements that are the first child of another element:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate cssHigh h2">
+                    p:first-child i
+                    {<br>
+                    &nbsp;&nbsp;color: blue;<br>
+                    }</div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_first-child3" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    </div>
+                    <hr>
+                    
+                    <h2 class="h2">CSS - The :lang Pseudo-class</h2>
+                    <p class="p">The <code class="w3-codespan">:lang</code> pseudo-class allows you to define special rules for different languages.</p>
+                    <p class="p">In the example below, <code class="w3-codespan">:lang</code> defines the quotation marks for &lt;q&gt; elements with lang=&quot;no&quot;:</p>
+                    <div class="w3-example">
+                    <h3>Example</h3>
+                    <div class="w3-code notranslate htmlHigh h2">
+                    &lt;html&gt;<br>
+                    &lt;head&gt;<br>
+                    &lt;style&gt;<br>
+                      q:lang(no) {<br>&nbsp; quotes: &quot;~&quot; &quot;~&quot;;<br>}<br>
+                    &lt;/style&gt;<br>
+                    &lt;/head&gt;<br>
+                    &lt;body&gt;<br><br>
+                    &lt;p&gt;Some text &lt;q lang=&quot;no&quot;&gt;A quote in a paragraph&lt;/q&gt; 
+                    Some text.&lt;/p&gt;<br><br>
+                    &lt;/body&gt;<br>
+                    &lt;/html&gt;
+                    </div>
+                    <a target="_blank" href="tryit.asp?filename=trycss_lang" class="w3-btn w3-margin-bottom">Try it Yourself &raquo;</a>
+                    </div>
+                    <hr>
+                    <h2 class="h2">More Examples</h2>
+                    
+                    <p class="p"><a style="color: black;" target="_blank" href="tryit.asp?filename=trycss_pc_links2">Add different styles to hyperlinks</a><br>
+                    This example demonstrates how to add other styles to hyperlinks.</p>
+                    
+                    <p class="p"><a style="color: black;" target="_blank" href="tryit.asp?filename=trycss_link_focus">Use of :focus</a><br>
+                    This example demonstrates how to use the :focus pseudo-class.</p>
+                    
+                   
+                    
+                    <hr>
+                    <h2 class="h2">All CSS Pseudo Classes</h2>
+                    <table class="ws-table-all notranslate">
+                      <tr>
+                        <th style="width:20%">Selector</th>
+                        <th style="width:20%">Example</th>
+                        <th>Example description</th>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_active.asp">:active</a></td>
+                        <td class="notranslate">a:active</td>
+                        <td>Selects the active link</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_checked.asp">:checked</a></td>
+                        <td class="notranslate">input:checked</td>
+                        <td>Selects every checked &lt;input&gt; element</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_disabled.asp">:disabled</a></td>
+                        <td class="notranslate">input:disabled</td>
+                        <td>Selects every disabled &lt;input&gt; element</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_empty.asp">:empty</a></td>
+                        <td class="notranslate">p:empty</td>
+                        <td>Selects every &lt;p&gt; element that has no children</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_enabled.asp">:enabled</a></td>
+                        <td class="notranslate">input:enabled</td>
+                        <td>Selects every enabled &lt;input&gt; element</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_firstchild.asp">:first-child</a></td>
+                        <td class="notranslate">p:first-child</td>
+                        <td>Selects every &lt;p&gt; elements that is the first child of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_first-of-type.asp">:first-of-type</a></td>
+                        <td class="notranslate">p:first-of-type</td>
+                        <td>Selects every &lt;p&gt; element that is the first &lt;p&gt; element of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_focus.asp">:focus</a></td>
+                        <td class="notranslate">input:focus</td>
+                        <td>Selects the &lt;input&gt; element that has focus</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_hover.asp">:hover</a></td>
+                        <td class="notranslate">a:hover</td>
+                        <td>Selects links on mouse over</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_in-range.asp">:in-range</a></td>
+                        <td class="notranslate">input:in-range</td>
+                        <td>Selects &lt;input&gt; elements with a value within a specified range</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_invalid.asp">:invalid</a></td>
+                        <td class="notranslate">input:invalid</td>
+                        <td>Selects all &lt;input&gt; elements with an invalid value</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_lang.asp">:lang(<i>language</i>)</a></td>
+                        <td class="notranslate">p:lang(it)</td>
+                        <td>Selects every &lt;p&gt; element with a lang attribute value starting with &quot;it&quot;</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_last-child.asp">:last-child</a></td>
+                        <td class="notranslate">p:last-child</td>
+                        <td>Selects every &lt;p&gt; elements that is the last child of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_last-of-type.asp">:last-of-type</a></td>
+                        <td class="notranslate">p:last-of-type</td>
+                        <td>Selects every &lt;p&gt; element that is the last &lt;p&gt; element of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_link.asp">:link</a></td>
+                        <td class="notranslate">a:link</td>
+                        <td>Selects all unvisited links</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_not.asp">:not(selector)</a></td>
+                        <td class="notranslate">:not(p)</td>
+                        <td>Selects every element that is not a &lt;p&gt; element</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_nth-child.asp">:nth-child(n)</a></td>
+                        <td class="notranslate">p:nth-child(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second child of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_nth-last-child.asp">:nth-last-child(n)</a></td>
+                        <td class="notranslate">p:nth-last-child(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second child of its parent, counting from the last child</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_nth-last-of-type.asp">:nth-last-of-type(n)</a></td>
+                        <td class="notranslate">p:nth-last-of-type(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second &lt;p&gt; element of its parent, counting from the last child</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_nth-of-type.asp">:nth-of-type(n)</a></td>
+                        <td class="notranslate">p:nth-of-type(2)</td>
+                        <td>Selects every &lt;p&gt; element that is the second &lt;p&gt; element of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_only-of-type.asp">:only-of-type</a></td>
+                        <td class="notranslate">p:only-of-type</td>
+                        <td>Selects every &lt;p&gt; element that is the only &lt;p&gt; element of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_only-child.asp">:only-child</a></td>
+                        <td class="notranslate">p:only-child</td>
+                        <td>Selects every &lt;p&gt; element that is the only child of its parent</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_optional.asp">:optional</a></td>
+                        <td class="notranslate">input:optional</td>
+                        <td>Selects &lt;input&gt; elements with no &quot;required&quot; attribute</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_out-of-range.asp">:out-of-range</a></td>
+                        <td class="notranslate">input:out-of-range</td>
+                        <td>Selects &lt;input&gt; elements with a value outside a specified range</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_read-only.asp">:read-only</a></td>
+                        <td class="notranslate">input:read-only</td>
+                        <td>Selects &lt;input&gt; elements with a &quot;readonly&quot; attribute specified</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_read-write.asp">:read-write</a></td>
+                        <td class="notranslate">input:read-write</td>
+                        <td>Selects &lt;input&gt; elements with no &quot;readonly&quot; attribute</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_required.asp">:required</a></td>
+                        <td class="notranslate">input:required</td>
+                        <td>Selects &lt;input&gt; elements with a &quot;required&quot; attribute specified</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_root.asp">:root</a></td>
+                        <td class="notranslate">root</td>
+                        <td>Selects the document's root element</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_target.asp">:target</a></td>
+                        <td class="notranslate">#news:target</td>
+                        <td>Selects the current active #news element (clicked on a URL containing that anchor name)</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_valid.asp">:valid</a></td>
+                        <td class="notranslate">input:valid</td>
+                        <td>Selects all &lt;input&gt; elements with a valid value</td>
+                      </tr>
+                      <tr>
+                        <td><a style="color: black;" href="/cssref/sel_visited.asp">:visited</a></td>
+                        <td class="notranslate">a:visited</td>
+                        <td>Selects all visited links</td>
+                      </tr>
+                    </table>
+                    
+                    <h2 class="h2">All CSS Pseudo Elements</h2>
+                    <table class="ws-table-all notranslate">
+                      <tr>
+                        <th style="width:20%">Selector</th>
+                        <th style="width:20%">Example</th>
+                        <th>Example description</th>
+                      </tr>
+                    <tr>
+                        <td><a style="color: black;" href="/cssref/sel_after.asp">::after</a></td>
+                        <td class="notranslate">p::after</td>
+                        <td>Insert content after every &lt;p&gt; element</td>
+                        </tr>
+                      <tr>
+                    <td><a style="color: black;" href="/cssref/sel_before.asp">::before</a></td>
+                        <td class="notranslate">p::before</td>
+                        <td>Insert content before every &lt;p&gt; element</td>
+                        </tr>
+                    <tr>
+                        <td><a style="color: black;" href="/cssref/sel_firstletter.asp">::first-letter</a></td>
+                        <td class="notranslate">p::first-letter</td>
+                        <td>Selects the first letter of every &lt;p&gt; element</td>
+                      </tr>
+                    <tr>
+                        <td><a style="color: black;" href="/cssref/sel_firstline.asp">::first-line</a></td>
+                        <td class="notranslate">p::first-line</td>
+                        <td>Selects the first line of every &lt;p&gt; element</td>
+                      </tr>
+                    <tr>
+                        <td><a style="color: black;" href="/cssref/sel_marker.asp">::marker</a></td>
+                        <td class="notranslate">::marker</td>
+                        <td>Selects the markers of list items</td>
+                      </tr>
+                    <tr>
+                        <td><a style="color: black;" href="/cssref/sel_selection.asp">::selection</a></td>
+                        <td class="notranslate">p::selection</td>
+                        <td>Selects the portion of an element that is selected by a user</td>
+                      </tr>
+                    </table>
+                    
+
+                    <img src="../assts/ad5.png" class="topimg" style="width: 700px;">
+                    <div class="c">
+                        <img src="../assts/Screenshot 2024-01-03 015212.png" alt="">
+                    </div>
+                    <div class="btn_top">
+                      <button><a href="29_cominators.html">❮ Previous</a></button>
+                      <button><a href="31_pseudo_element.html">Next ❯</a></i></button>
+                  </div>
+
+                </section>
+                <aside class="advertise">
+                    <h3 class="h2">ADVERTISEMENT</h3>
+                    <img src="../assts/ad4.png" alt="">
+                    <img src="../assts/ad2.png" alt="">
+                    <img src="../assts/adc.png" alt="">
+                    <img src="../assts/ad1.png" alt="">
+                    <img src="../assts/ad4.png" alt="">
+
+
+
+                </aside>
+            </main>
+            <footer>
+                <div class="footer_content">
+                    <img src="../assts/footer logo.png" alt="" class="logos">
+                    <div class="links">
+                        <a href="">SPACES</a>
+                        <a href="">UPGRADE</a>
+                        <a href="">AD-FREE</a>
+                        <a href="">NEWSLETTER</a>
+                        <a href="">GET CERTIFIED</a>
+                        <a href="">REPORT ERROR</a>
+                    </div>
+                    <div class="heading_links">
+                        <div class="Tutorials">
+                            <h5>Top Tutorials</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                        <div class="Tutorials">
+                            <h5>Top Referances</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                        <div class="Tutorials">
+                            <h5>Top Examples</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                        <div class="Tutorials">
+                            <h5>Top Examples</h5>
+                            <a href="">HTML Tutorials</a>
+                            <a href="">CSS Tutorials</a>
+                            <a href="">Javascript Tutorials</a>
+                            <a href="">How To Tutorials</a>
+                            <a href="">W3.CSS Tutorials</a>
+                            <a href="">Bootstrap Tutorials</a>
+                            <a href="">PHP Tutorials</a>
+                            <a href="">Java Tutorials</a>
+                            <a href="">C++ Tutorials</a>
+                            <a href="">jQuery Tutorials</a>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="">FORUM</a>
+                        <a href="">ABOUT</a>
+                    </div>
+                    <div class="last">
+                        <p >W3Schools is optimized for learning and training. Examples might be simplified to
+                            improve
+                            reading and learning. Tutorials, references, and examples are constantly reviewed to avoid
+                            errors, but we cannot warrant full correctness of all content. While using W3Schools, you
+                            agree to have read and accepted our <a href="">terms of use</a>, <a href="">cookie and
+                                privacy policy.</a></p>
+                        <p ><a href="">Copyright 1999-2024</a> by Refsnes Data. All Rights Reserved.a <a
+                                href="">W3Schools is Powered by W3.CSS.</a></p>
+                    </div>
+                    <div class="imgend">
+                        <img src="../assts/footer men.png" alt="">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
